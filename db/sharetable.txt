@@ -1,0 +1,18 @@
+USE [genetic_db]
+GO
+
+/****** Object:  Table [dbo].[Share]    Script Date: 03/28/2014 16:14:26 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Share](
+	[share_id] [int] IDENTITY(1,1) NOT NULL,
+	[Song_id] [int] NULL,
+	[From_user] [int] NULL,
+	[To_user] [int] NULL
+) ON [PRIMARY]
+
+GO
